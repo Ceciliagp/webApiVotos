@@ -1,0 +1,12 @@
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\bin\Debug\net5.0\Infraestructura.Plataforma.deps.json
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\bin\Debug\net5.0\Infraestructura.Plataforma.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\bin\Debug\net5.0\ref\Infraestructura.Plataforma.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\bin\Debug\net5.0\Infraestructura.Plataforma.pdb
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.AssemblyInfoInputs.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.AssemblyInfo.cs
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.csproj.CoreCompileInputs.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\ref\Infraestructura.Plataforma.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.pdb
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Plataforma\obj\Debug\net5.0\Infraestructura.Plataforma.csproj.AssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\bin\Debug\net5.0\Infraestructura.Extensiones.deps.json
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\bin\Debug\net5.0\Infraestructura.Extensiones.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\bin\Debug\net5.0\ref\Infraestructura.Extensiones.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\bin\Debug\net5.0\Infraestructura.Extensiones.pdb
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.csproj.AssemblyReference.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.AssemblyInfoInputs.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.AssemblyInfo.cs
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.csproj.CoreCompileInputs.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\ref\Infraestructura.Extensiones.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Infraestructura.Extensiones\obj\Debug\net5.0\Infraestructura.Extensiones.pdb

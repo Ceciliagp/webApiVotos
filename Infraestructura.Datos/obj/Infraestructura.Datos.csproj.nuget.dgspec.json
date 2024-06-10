@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Datos\\Infraestructura.Datos.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj",
+        "projectName": "Dominio.Entidades",
+        "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj",
+        "packagesPath": "C:\\Users\\CCNAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCNAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Modelos\\Dominio.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Modelos\\Dominio.Modelos.csproj",
+        "projectName": "Dominio.Modelos",
+        "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Modelos\\Dominio.Modelos.csproj",
+        "packagesPath": "C:\\Users\\CCNAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCNAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Datos\\Infraestructura.Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Datos\\Infraestructura.Datos.csproj",
+        "projectName": "Infraestructura.Datos",
+        "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Datos\\Infraestructura.Datos.csproj",
+        "packagesPath": "C:\\Users\\CCNAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCNAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj"
+              },
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Extensiones\\Infraestructura.Extensiones.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Extensiones\\Infraestructura.Extensiones.csproj"
+              },
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj"
+              },
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Negocio.IRepositorio\\Negocio.IRepositorio.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Negocio.IRepositorio\\Negocio.IRepositorio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Extensiones\\Infraestructura.Extensiones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Extensiones\\Infraestructura.Extensiones.csproj",
+        "projectName": "Infraestructura.Extensiones",
+        "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Extensiones\\Infraestructura.Extensiones.csproj",
+        "packagesPath": "C:\\Users\\CCNAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Extensiones\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCNAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj",
+        "projectName": "Infraestructura.Plataforma",
+        "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj",
+        "packagesPath": "C:\\Users\\CCNAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCNAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Negocio.IRepositorio\\Negocio.IRepositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Negocio.IRepositorio\\Negocio.IRepositorio.csproj",
+        "projectName": "Negocio.IRepositorio",
+        "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Negocio.IRepositorio\\Negocio.IRepositorio.csproj",
+        "packagesPath": "C:\\Users\\CCNAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Negocio.IRepositorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCNAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Entidades\\Dominio.Entidades.csproj"
+              },
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Modelos\\Dominio.Modelos.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Dominio.Modelos\\Dominio.Modelos.csproj"
+              },
+              "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj": {
+                "projectPath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\Infraestructura.Plataforma\\Infraestructura.Plataforma.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

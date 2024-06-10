@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Entidades\Dominio.Entidades.csproj" />
+    <ProjectReference Include="..\Infraestructura.Extensiones\Infraestructura.Extensiones.csproj" />
+    <ProjectReference Include="..\Infraestructura.Plataforma\Infraestructura.Plataforma.csproj" />
+    <ProjectReference Include="..\Negocio.IRepositorio\Negocio.IRepositorio.csproj" />
+  </ItemGroup>
+
+</Project>

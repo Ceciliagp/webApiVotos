@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Negocio.IRepositorio/1.0.0": {
+        "dependencies": {
+          "Dominio.Entidades": "1.0.0",
+          "Dominio.Modelos": "1.0.0",
+          "Infraestructura.Plataforma": "1.0.0"
+        },
+        "runtime": {
+          "Negocio.IRepositorio.dll": {}
+        }
+      },
+      "Dominio.Entidades/1.0.0": {
+        "runtime": {
+          "Dominio.Entidades.dll": {}
+        }
+      },
+      "Dominio.Modelos/1.0.0": {
+        "runtime": {
+          "Dominio.Modelos.dll": {}
+        }
+      },
+      "Infraestructura.Plataforma/1.0.0": {
+        "runtime": {
+          "Infraestructura.Plataforma.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Negocio.IRepositorio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dominio.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dominio.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infraestructura.Plataforma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

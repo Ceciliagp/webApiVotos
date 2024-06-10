@@ -1,0 +1,12 @@
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\bin\Debug\net5.0\Dominio.Entidades.deps.json
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\bin\Debug\net5.0\Dominio.Entidades.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\bin\Debug\net5.0\ref\Dominio.Entidades.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\bin\Debug\net5.0\Dominio.Entidades.pdb
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.csproj.AssemblyReference.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.AssemblyInfoInputs.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.AssemblyInfo.cs
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\ref\Dominio.Entidades.dll
+C:\Users\CCNAR\OneDrive\Documentos\GitHub\webApiVotos\Dominio.Entidades\obj\Debug\net5.0\Dominio.Entidades.pdb
