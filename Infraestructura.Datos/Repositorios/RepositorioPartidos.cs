@@ -34,6 +34,7 @@ namespace Infraestructura.Datos.Repositorios
                     NombreCandidato = p.NombreCandidato,
                     ApellidoCandidato = p.ApellidoCandidato,
                     ImagenPartido = p.ImagenPartido.MapClass<ImagenPartido, MImagenPartido>(),
+                    Propuestas = p.Propuestas.MapList<Propuesta, MPropuesta>()
                 }).ToListAsync();
 
                 return new Respuesta<List<MPartido>>(partidosConImagenes);

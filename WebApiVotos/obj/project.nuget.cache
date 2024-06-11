@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L9p3MCvSj+Wgp9Z13xGzS+ubhtikd2wjbi1aZruL3CCUbrTqsx3eyl7m9T5LBpvxZ9kKWjgVoc6W3gS/vLFE/w==",
+  "dgSpecHash": "MAmtT9jGEzgpw1Zy0ZMRs5x43xX0HI/+q/mgEtAA1FzfjvUqylMqymSwvVgMZlm/+oHIzTR3nvi9kl3Ww0JNXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\CCNAR\\OneDrive\\Documentos\\GitHub\\webApiVotos\\WebApiVotos\\WebApiVotos.WebApi.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\CCNAR\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\CCNAR\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\CCNAR\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\CCNAR\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\CCNAR\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\CCNAR\\.nuget\\packages\\mysql.data\\8.0.23\\mysql.data.8.0.23.nupkg.sha512",
     "C:\\Users\\CCNAR\\.nuget\\packages\\mysql.entityframeworkcore\\5.0.0\\mysql.entityframeworkcore.5.0.0.nupkg.sha512",
