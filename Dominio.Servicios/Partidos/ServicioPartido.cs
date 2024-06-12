@@ -25,8 +25,8 @@ namespace Dominio.Servicios
             }
 
             var partidoSave = partido.MapClass<MPartido, Partido>();
-            partidoSave.Propuestas = partido.Propuestas.MapList<MPropuesta, Propuesta>();
-            partidoSave.ImagenPartido = partido.ImagenPartido.MapClass<MImagenPartido, ImagenPartido>();
+            //partidoSave.Propuestas = partido.Propuestas.MapList<MPropuesta, Propuesta>();
+            //partidoSave.ImagenPartido = partido.ImagenPartido.MapClass<MImagenPartido, ImagenPartido>();
 
             return new Respuesta<Partido>(partidoSave);
         }

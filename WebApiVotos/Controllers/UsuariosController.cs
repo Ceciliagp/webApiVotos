@@ -42,7 +42,7 @@ namespace WebApiVotos.WebApi.Controllers
                 return new Response().GetRespuesta<List<MUsuario>>("Error Excepción: " + e.Message);
             }
         }
-
+        
         [HttpGet("consulta")]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public async Task<RespuestaApi<MUsuario>> GetUsuario(int id)

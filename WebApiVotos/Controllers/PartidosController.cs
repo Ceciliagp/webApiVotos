@@ -1,11 +1,13 @@
 ﻿using Dominio.Entidades;
 using Dominio.Modelos;
 using Infraestructura.Plataforma;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Negocio.Servicio.Partidos;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -66,10 +68,25 @@ namespace WebApiVotos.WebApi.Controllers
 
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-        public async Task<RespuestaApi<Respuesta>> PostPartido([FromBody] MPartido partido)
+        public async Task<RespuestaApi<Respuesta>> PostPartido([FromForm] MPartido partido, [FromForm] IFormFile file)
         {
             try
             {
+                var fileBytes = new byte[0];
+                using (var memoryStream = new MemoryStream())
+                {
+                    await file.CopyToAsync(memoryStream);
+                    fileBytes = memoryStream.ToArray();
+                }
+
+                partido.ImagenPartido = new MImagenPartido
+                {
+                    FileName = file.FileName,
+                    ContentType = file.ContentType,
+                    Data = fileBytes,
+                    Activo = true
+                };
+
                 var respuesta = await _partido.PostPartido(partido);
 
                 if (respuesta.EsError)

@@ -137,6 +137,7 @@ namespace Infraestructura.Datos.Repositorios
         {
             try
             {
+                partido.Activo = true;
                 await _dbContext.Partido.AddAsync(partido);
                 _dbContext.SaveChanges();
             }
