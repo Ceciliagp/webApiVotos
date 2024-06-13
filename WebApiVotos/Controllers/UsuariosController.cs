@@ -62,6 +62,25 @@ namespace WebApiVotos.WebApi.Controllers
             }
         }
 
+        [HttpGet("consulta/funcionarios")]
+        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
+        public async Task<RespuestaApi<List<MUsuario>>> GetFuncionarios()
+        {
+            try
+            {
+                var respuesta = await _user.GetFuncionarios();
+
+                if (respuesta.EsError)
+                    return new Response().GetRespuesta<List<MUsuario>>(respuesta.Mensaje);
+
+                return new Response().GetRespuesta<List<MUsuario>>(respuesta.Contenido);
+            }
+            catch (Exception e)
+            {
+                return new Response().GetRespuesta<List<MUsuario>>("Error Excepción: " + e.Message);
+            }
+        }
+
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public async Task<RespuestaApi<Respuesta>> PostUsuario([FromBody] MUsuario usuario)

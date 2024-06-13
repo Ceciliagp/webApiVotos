@@ -39,6 +39,15 @@ namespace Negocio.Servicio
             return new Respuesta();
         }
 
+        public async Task<Respuesta<List<MUsuario>>> GetFuncionarios()
+        {
+            var users = await repositorio.GetUsuarios();
+
+            if (users.EsError) return new Respuesta<List<MUsuario>>(users.Mensaje);
+
+            return new Respuesta<List<MUsuario>>(users.Contenido.Where(e => e.IdRol == 2).ToList());
+        }
+
         public async Task<Respuesta<MUsuario>> GetUsuario(int id)
         {
             return await repositorio.GetUsuarioxId(id);

@@ -12,6 +12,7 @@ namespace Negocio.Servicio
     public interface INServicioUsuario
     {
         Task<Respuesta<List<MUsuario>>> GetUsuarios();
+        Task<Respuesta<List<MUsuario>>> GetFuncionarios();
         Task<Respuesta<MUsuario>> GetUsuario(int id);
         Task<Respuesta> DeleteUsuario(int id);
         Task<Respuesta> PostUsuario(MUsuario usuario);
