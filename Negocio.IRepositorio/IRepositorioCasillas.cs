@@ -15,6 +15,7 @@ namespace Negocio.IRepositorio
         Task<Respuesta> CasillaDuplicada(string seccion, int idPartido);
         Task<Respuesta> SaveCasilla(Casilla casilla);
         Task<Respuesta<MCasilla>> GetCasillaxId(int id);
+        Task<Respuesta<MCasilla>> GetCasillaxSeccion(string seccion);
         Task<Respuesta<List<MCasilla>>> GetCasillasxUsuario(int idUsuario);
         Task<Respuesta> UpdateCasilla(Casilla casilla);
         Task<Respuesta> DeleteCasilla(Casilla casilla);

@@ -45,6 +45,10 @@ namespace Infraestructura.Datos
             {
                 eb.HasKey(c => new { c.Id });
             });
+            modelBuilder.Entity<Votos>(eb =>
+            {
+                eb.HasKey(c => new { c.Id });
+            });
         }
 
         public DbSet<Propuesta> Propuestas { get; set; }
@@ -54,5 +58,6 @@ namespace Infraestructura.Datos
         public DbSet<Roles> Rol { get; set; }
         public DbSet<ImagenPartido> ImagenPartido { get; set; }
         public DbSet<Casilla> Casilla { get; set; }
+        public DbSet<Votos> Voto { get; set; }
     }
 }

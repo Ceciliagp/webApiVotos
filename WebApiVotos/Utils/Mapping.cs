@@ -25,6 +25,8 @@ namespace WebApiVotos.WebApi.Utils
             services.AddTransient<IRepositorioPartidos, RepositorioPartidos>();
             services.AddTransient<IRepositorioUsuario, RepositorioUsuario>();
             services.AddTransient<IRepositorioCasillas, RepositorioCasillas>();
+            services.AddTransient<IRepositorioVotante, RepositorioVotante>();
+            services.AddTransient<IRepositorioVoto, RepositorioVoto>();
         }
 
         private static void MapperServicesAplication(IServiceCollection services)
@@ -32,6 +34,8 @@ namespace WebApiVotos.WebApi.Utils
             services.AddTransient<INServicioPartido, NServicioPartido>();
             services.AddTransient<INServicioUsuario, NServicioUsuario>();
             services.AddTransient<INServicioCasillas, NServicioCasillas>();
+            services.AddTransient<INServicioVotante, NServicioVotante>();
+            services.AddTransient<INServicioVoto, NServicioVoto>();
         }
 
         private static void MapperServicesDominio(IServiceCollection services)
@@ -39,6 +43,7 @@ namespace WebApiVotos.WebApi.Utils
             services.AddTransient<IServicioPartido, ServicioPartido>();
             services.AddTransient<IServicioUsuario, ServicioUsuario>();
             services.AddTransient<IServicioCasillas, ServicioCasillas>();
+            services.AddTransient<IServicioVotante, ServicioVotante>();
         }
     }
 }

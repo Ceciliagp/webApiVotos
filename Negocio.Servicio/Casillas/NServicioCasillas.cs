@@ -55,6 +55,11 @@ namespace Negocio.Servicio
             return await repositorio.GetCasillaxId(id);
         }
 
+        public async Task<Respuesta<MCasilla>> GetCasillaxSeccion(string seccion)
+        {
+            return await repositorio.GetCasillaxSeccion(seccion);
+        }
+
         public async Task<Respuesta<List<MCasilla>>> GetCasillaxUsuario(int idUsuario)
         {
             var user = await serUser.GetUsuario(idUsuario);

@@ -123,6 +123,31 @@ namespace Infraestructura.Datos.Repositorios
             }
         }
 
+        public async Task<Respuesta<MCasilla>> GetCasillaxSeccion(string seccion)
+        {
+            try
+            {
+                var casilla = await _dbContext.Casilla
+                                     .Where(e => e.Activo && e.Seccion == seccion)
+                                     .Select(p => new MCasilla
+                                     {
+                                         Id = p.Id,
+                                         Seccion = p.Seccion,
+                                         FechaFin = p.FechaFin,
+                                         FechaInicio = p.FechaInicio,
+                                         IdUsuario = p.IdUsuario,
+                                         Activo = p.Activo
+                                     })
+                                     .FirstOrDefaultAsync();
+
+                return new Respuesta<MCasilla>(casilla);
+            }
+            catch (Exception ex)
+            {
+                return new Respuesta<MCasilla>(string.Format(MsjAviso.ErrorDB, TAG));
+            }
+        }
+
         public async Task<Respuesta> SaveCasilla(Casilla casilla)
         {
             try

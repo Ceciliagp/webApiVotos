@@ -12,6 +12,7 @@ namespace Negocio.Servicio
     {
         Task<Respuesta<List<MCasilla>>> GetAllsCasillas();
         Task<Respuesta<MCasilla>> GetCasilla(int id);
+        Task<Respuesta<MCasilla>> GetCasillaxSeccion(string seccion);
         Task<Respuesta<List<MCasilla>>> GetCasillaxUsuario(int idUsuario);
         Task<Respuesta> DeleteCasilla(int id);
         Task<Respuesta> PostCasilla(MCasilla casilla);
